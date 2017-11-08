@@ -3,6 +3,11 @@ C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\WebApi.d
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\WebApi.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\WebApi.pdb
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Antlr3.Runtime.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.Web.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.Web.Http.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.Web.Http.WebHost.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.Web.Mvc.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -23,7 +28,13 @@ C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.W
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.Web.WebPages.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\WebActivator.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\WebGrease.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.xml
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.Web.xml
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.Web.Http.xml
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.Web.Http.WebHost.xml
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\AttributeRouting.Web.Mvc.xml
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Newtonsoft.Json.xml
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.Net.Http.Formatting.xml
@@ -36,6 +47,7 @@ C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.W
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.Web.WebPages.xml
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\WebActivator.pdb
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Antlr3.Runtime.pdb
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\Microsoft.AI.DependencyCollector.xml
@@ -55,3 +67,4 @@ C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\bin\es\Syste
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\obj\Debug\WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\obj\Debug\WebApi.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\WebApi\obj\Debug\WebApi.pdb
+C:\Users\Leo\documents\visual studio 2017\Projects\Solution1\WebApi\obj\Debug\WebApi.csprojResolveAssemblyReference.cache

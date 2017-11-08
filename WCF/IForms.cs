@@ -14,6 +14,6 @@ namespace WCF
     public interface IForms
     {
         [OperationContract]
-        MensajeWCF<FormsFUN> ObtenerForms();
+        FormsResponseFUN ObtenerForms();
     }
 }

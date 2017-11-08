@@ -27,8 +27,7 @@ namespace BildChile.BLL.Manager
         {
 
             MensajeWCF<FormsFUN> retorno = new MensajeWCF<FormsFUN>();
-
-
+            List<FormsFUN> response = new List<FormsFUN>();
 
             try
             {
@@ -56,7 +55,8 @@ namespace BildChile.BLL.Manager
                     listado.Add(formfun);
                 }
 
-              
+        
+
                 retorno.Contenido = listado;
                 retorno.CodigoError = "E_00";
                 retorno.MensajeError = "";

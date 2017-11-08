@@ -16,10 +16,24 @@ namespace WCF
         private const string POLITICA = "Informacion";
 
 
-        public MensajeWCF<FormsFUN> ObtenerForms()
+        public FormsResponseFUN ObtenerForms()
         {
-
-            return FormsMgr.ObtenerForms();
+            FormsResponseFUN response = new FormsResponseFUN();
+            MensajeWCF<FormsFUN> respuesta = FormsMgr.ObtenerForms();
+            if(respuesta.CodigoError == "E_00")
+            {
+                response.status = 200;
+                response.error = "";
+                response.msg = respuesta.Contenido;
+            }
+            else
+            {
+                response.status = 500;
+                response.error = "Internal Error";
+                response.msg = new List<FormsFUN>();
+            }
+            
+            return response;
 
         }
     }

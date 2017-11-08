@@ -15,27 +15,20 @@ namespace WebApi.FormsSvc {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="MensajeWCFOfFormsFUN", Namespace="http://tempuri.org/")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="FormsResponseFUN", Namespace="http://tempuri.org/")]
     [System.SerializableAttribute()]
-    public partial class MensajeWCFOfFormsFUN : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+    public partial class FormsResponseFUN : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CodigoErrorField;
+        private int statusField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string MensajeErrorField;
+        private string errorField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string MensajeHumanoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string IdAppField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<WebApi.FormsSvc.FormsFUN> ContenidoField;
+        private System.Collections.Generic.List<WebApi.FormsSvc.FormsFUN> msgField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -47,67 +40,41 @@ namespace WebApi.FormsSvc {
             }
         }
         
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public string CodigoError {
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
+        public int status {
             get {
-                return this.CodigoErrorField;
+                return this.statusField;
             }
             set {
-                if ((object.ReferenceEquals(this.CodigoErrorField, value) != true)) {
-                    this.CodigoErrorField = value;
-                    this.RaisePropertyChanged("CodigoError");
+                if ((this.statusField.Equals(value) != true)) {
+                    this.statusField = value;
+                    this.RaisePropertyChanged("status");
                 }
             }
         }
         
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public string MensajeError {
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string error {
             get {
-                return this.MensajeErrorField;
+                return this.errorField;
             }
             set {
-                if ((object.ReferenceEquals(this.MensajeErrorField, value) != true)) {
-                    this.MensajeErrorField = value;
-                    this.RaisePropertyChanged("MensajeError");
+                if ((object.ReferenceEquals(this.errorField, value) != true)) {
+                    this.errorField = value;
+                    this.RaisePropertyChanged("error");
                 }
             }
         }
         
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public string MensajeHumano {
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
+        public System.Collections.Generic.List<WebApi.FormsSvc.FormsFUN> msg {
             get {
-                return this.MensajeHumanoField;
+                return this.msgField;
             }
             set {
-                if ((object.ReferenceEquals(this.MensajeHumanoField, value) != true)) {
-                    this.MensajeHumanoField = value;
-                    this.RaisePropertyChanged("MensajeHumano");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=3)]
-        public string IdApp {
-            get {
-                return this.IdAppField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.IdAppField, value) != true)) {
-                    this.IdAppField = value;
-                    this.RaisePropertyChanged("IdApp");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=4)]
-        public System.Collections.Generic.List<WebApi.FormsSvc.FormsFUN> Contenido {
-            get {
-                return this.ContenidoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.ContenidoField, value) != true)) {
-                    this.ContenidoField = value;
-                    this.RaisePropertyChanged("Contenido");
+                if ((object.ReferenceEquals(this.msgField, value) != true)) {
+                    this.msgField = value;
+                    this.RaisePropertyChanged("msg");
                 }
             }
         }
@@ -322,12 +289,12 @@ namespace WebApi.FormsSvc {
     public partial class ObtenerFormsResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public WebApi.FormsSvc.MensajeWCFOfFormsFUN ObtenerFormsResult;
+        public WebApi.FormsSvc.FormsResponseFUN ObtenerFormsResult;
         
         public ObtenerFormsResponseBody() {
         }
         
-        public ObtenerFormsResponseBody(WebApi.FormsSvc.MensajeWCFOfFormsFUN ObtenerFormsResult) {
+        public ObtenerFormsResponseBody(WebApi.FormsSvc.FormsResponseFUN ObtenerFormsResult) {
             this.ObtenerFormsResult = ObtenerFormsResult;
         }
     }
@@ -364,7 +331,7 @@ namespace WebApi.FormsSvc {
             return base.Channel.ObtenerForms(request);
         }
         
-        public WebApi.FormsSvc.MensajeWCFOfFormsFUN ObtenerForms() {
+        public WebApi.FormsSvc.FormsResponseFUN ObtenerForms() {
             WebApi.FormsSvc.ObtenerFormsRequest inValue = new WebApi.FormsSvc.ObtenerFormsRequest();
             inValue.Body = new WebApi.FormsSvc.ObtenerFormsRequestBody();
             WebApi.FormsSvc.ObtenerFormsResponse retVal = ((WebApi.FormsSvc.IForms)(this)).ObtenerForms(inValue);

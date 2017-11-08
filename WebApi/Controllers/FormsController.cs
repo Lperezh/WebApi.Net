@@ -7,20 +7,22 @@ using System.Net.Http;
 using System.Web.Http;
 using WebApi.FormsSvc;
 using Newtonsoft.Json;
+using AttributeRouting.Web.Http;
 
 namespace WebApi.Controllers
 {
-   
+    [RoutePrefix("Forms")]
 
     public class FormsController : ApiController
     {
-        
-        public HttpResponseMessage Get()
+
+        [GET("getforms")]
+        public HttpResponseMessage getforms()
         {
 
             FormsClient servicio = new WebApi.FormsSvc.FormsClient();
 
-            MensajeWCFOfFormsFUN response = new MensajeWCFOfFormsFUN();
+            FormsResponseFUN response = new FormsResponseFUN();
             List<FormsFUN> listaEntidad = new List<FormsFUN>();
             HttpResponseMessage respuesta = new HttpResponseMessage();
             
@@ -37,10 +39,11 @@ namespace WebApi.Controllers
                 {
 
                     response = servicio.ObtenerForms();
-                    if (response.CodigoError == "E_00")
+                    if (response.status == 200)
                     {
+                  
                         respuesta.StatusCode = HttpStatusCode.OK;
-                        respuesta.Content = new StringContent(JsonConvert.SerializeObject(response.Contenido));
+                        respuesta.Content = new StringContent(JsonConvert.SerializeObject(response));
                     }
                     else
                     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{6EE3BBBE-E454-4922-AABD-D91625FB1040}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ent</RootNamespace>
-    <AssemblyName>Ent</AssemblyName>
+    <RootNamespace>BildChile.ENT</RootNamespace>
+    <AssemblyName>BildChile.ENT</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

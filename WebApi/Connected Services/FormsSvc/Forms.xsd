@@ -6,17 +6,15 @@
   <xs:element name="ObtenerFormsResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" maxOccurs="1" name="ObtenerFormsResult" type="tns:MensajeWCFOfFormsFUN" />
+        <xs:element minOccurs="0" maxOccurs="1" name="ObtenerFormsResult" type="tns:FormsResponseFUN" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:complexType name="MensajeWCFOfFormsFUN">
+  <xs:complexType name="FormsResponseFUN">
     <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="1" name="CodigoError" type="xs:string" />
-      <xs:element minOccurs="0" maxOccurs="1" name="MensajeError" type="xs:string" />
-      <xs:element minOccurs="0" maxOccurs="1" name="MensajeHumano" type="xs:string" />
-      <xs:element minOccurs="0" maxOccurs="1" name="IdApp" type="xs:string" />
-      <xs:element minOccurs="0" maxOccurs="1" name="Contenido" type="tns:ArrayOfFormsFUN" />
+      <xs:element minOccurs="1" maxOccurs="1" name="status" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="error" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="msg" type="tns:ArrayOfFormsFUN" />
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="ArrayOfFormsFUN">

@@ -1,5 +1,6 @@
-C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Fun\obj\Debug\BildChile.FUN.csproj.CoreCompileInputs.cache
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Fun\bin\Debug\BildChile.FUN.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Fun\bin\Debug\BildChile.FUN.pdb
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Fun\obj\Debug\BildChile.FUN.csproj.CoreCompileInputs.cache
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Fun\obj\Debug\BildChile.FUN.dll
 C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Fun\obj\Debug\BildChile.FUN.pdb
+C:\Users\Leo\documents\visual studio 2017\Projects\Solution1\Fun\obj\Debug\BildChile.FUN.csprojResolveAssemblyReference.cache
