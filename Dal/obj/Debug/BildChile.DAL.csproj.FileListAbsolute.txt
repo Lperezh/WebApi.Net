@@ -1,0 +1,16 @@
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\obj\Debug\BildChile.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\obj\Debug\BildChile.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Dal.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Dal.pdb
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Ent.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\bin\Debug\Ent.pdb
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\obj\Debug\Dal.dll
+C:\Users\Leo\Documents\Visual Studio 2017\Projects\Solution1\Dal\obj\Debug\Dal.pdb
