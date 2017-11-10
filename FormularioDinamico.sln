@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BildChile.ENT", "Ent\BildCh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BildChile.FUN", "Fun\BildChile.FUN.csproj", "{2F0C8245-3CCF-4CFC-A950-F10FAD489FA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTokenAuthentication", "WebApiTokenAuthentication\WebApiTokenAuthentication.csproj", "{11BF32D6-3D35-409A-952C-43E78846283B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{2F0C8245-3CCF-4CFC-A950-F10FAD489FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F0C8245-3CCF-4CFC-A950-F10FAD489FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F0C8245-3CCF-4CFC-A950-F10FAD489FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BF32D6-3D35-409A-952C-43E78846283B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BF32D6-3D35-409A-952C-43E78846283B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BF32D6-3D35-409A-952C-43E78846283B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BF32D6-3D35-409A-952C-43E78846283B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

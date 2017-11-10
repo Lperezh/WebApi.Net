@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ObtenerForms">
+    <xs:complexType />
+  </xs:element>
+  <xs:element name="ObtenerFormsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ObtenerFormsResult" type="tns:FormsResponseFUN" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="FormsResponseFUN">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="status" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="error" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="msg" type="tns:ArrayOfFormsFUN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfFormsFUN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FormsFUN" nillable="true" type="tns:FormsFUN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FormsFUN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="inputs" type="tns:ArrayOfInputsFUN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfInputsFUN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InputsFUN" nillable="true" type="tns:InputsFUN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="InputsFUN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="type" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="required" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
